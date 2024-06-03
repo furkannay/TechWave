@@ -1,0 +1,70 @@
+.contact-us-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 10vw;
+  margin: 0 auto; 
+}
+.contact-us-container {
+  margin-top: 5vw;
+  margin-bottom: 5vw; /* Altındaki boşluğu belirtmek için */
+}
+
+.contact-card {
+  background-color: rgb(35, 00, 44);
+  width: 15vw; /* Kartların genişliği */
+  height: 10w;
+  padding: 2vw;
+  border: 2px solid rgba(210, 210, 210, 0.5);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* İçeriği dikeyde (alt alta) hizalamak için */
+  justify-content: center; /* İçeriği yatayda ortalamak için */
+  align-items: center; /* İçeriği dikeyde ortalamak için */
+}
+
+.contact-icon {
+  font-size: 4vw;
+  color: rgb(210, 210, 210); /* Icon rengi (mavi) */
+  margin-bottom: 2vw; /* Icon ile buton arasındaki boşluk */
+  
+}
+
+.contact-button {
+  font-size: 1vw;
+  background-color: rgb(234, 175, 37); /* Yeşil renk */
+  color: rgb(210, 210, 210); /* Beyaz renk */
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 9vw;
+  height: 3vw;
+  margin-bottom: 2vw;
+  max-width: 90%;
+}
+.contact-info {
+  font-size: 1vw; /* Varsayılan boyut */
+  color: rgb(150, 150, 150); /* Varsayılan renk */
+}
+
+.contact-info.phone {
+  font-size: 1vw;
+  color: rgb(150, 150, 150); /* Kırmızı renk */
+  flex-wrap: wrap;
+}
+
+.contact-info.mail {
+  font-size: 1vw;
+  color: rgb(150, 150, 150); /* Mavi renk */
+  flex-wrap: wrap;
+}
+
+.contact-info.location {
+  font-size: 1vw;
+  color: rgb(150, 150, 150); /* Yeşil renk */
+}
+
+

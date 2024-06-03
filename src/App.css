@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Dikey hizalama */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  background-color: rgb(190, 190, 190); /* Arka plan rengini hex veya RGB değeriyle belirtin */
+}
+
+
+.app > *:not(:nth-last-child(-n+2)) {
+  border-bottom: 0px solid rgb(0, 0, 0); /* Her alt öğeye alt çizgi ekle */
+  /*margin-bottom: 20px;  Her alt öğeden sonra 20px boşluk bırak */
+  box-shadow: 0 5px 5px rgba(29, 2, 66, 0.5); /* Alt çizgilere gölge efekti ekle */
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fb6161;
+}
+
+
+

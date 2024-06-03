@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgb(210, 210, 210);
+  color: rgb(35, 0, 44);
+  padding: 0.5vw 0;
+  text-align: center; /* Metinleri ortala */
+  height: 5vw;
+
+}
+
+.footer p {
+  font-size: 1vw;
+  font-weight: bold;
+
+}

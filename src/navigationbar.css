@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgb(210, 210, 210);
+  color: rgb(0, 0, 10);
+  width: 100vw;
+  border-bottom: 3px solid rgb(255, 255, 255); /* Her alt öğeye alt çizgi ekle */
+  box-shadow: 0 5px 5px rgba(200, 200, 200, 0.5); /* Alt çizgilere gölge efekti ekle */
+
+}
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between; /* Öğeleri eşit aralıklarla dağıt */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.nav-item:last-child {
+  margin-right: 50; /* Son öğe için boşluk bırakma */
+}
+
+.nav-item a {
+  color: rgb(0, 0, 10);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 1vw;
+}
+
+.nav-item a:hover {
+  color: #000000; /* Hover üzerinde renk değişimi */
+}
+

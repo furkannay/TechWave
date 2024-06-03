@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media (max-width: 1500px) {
+  /* Ekran genişliği 1500 pikselden küçük olduğunda bu stil tanımları uygulanır */
+  
+  /* Öğelerin genişlikleri yüzde olarak ayarlanabilir */
+  .container {
+      width: 90%; /* Örnek: container genişliği ekran genişliğinin %90'ı kadar */
+  }
+
+  /* Yazı boyutları yüzde olarak ayarlanabilir */
+  p {
+      font-size: 90%; /* Örnek: yazı boyutu mevcut boyutun %90'ı */
+  }
+
+  /* Diğer öğeler için yüzdelik boyut ayarları */
+  .element {
+      width: 50%; /* Örnek: element genişliği ekran genişliğinin %50'si kadar */
+      margin: 0 auto; /* Örnek: ortalanmış bir element */
+  }
+
+  /* Daha fazla stil tanımı yapılabilir... */
+}

@@ -1,0 +1,125 @@
+.order-container {
+  display: flex;
+  align-items: center; /* Formu dikeyde ortala */
+  justify-content: center;
+  padding: 2vw;
+  gap: 4vw;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.phoneimg {
+  width: 25vw;
+  height: auto;
+}
+
+.order-form {
+  max-width: 45vw;
+  padding: 1vw;
+  background-color:transparent; /* Saydam arka plan */
+}
+
+.order-form h2 {
+  text-align: center;
+  margin-bottom: 2vw;
+  color: rgb(255, 255, 255); /* Başlık rengi */
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.form-group {
+  margin-bottom: 1.5vw;
+}
+
+.form-group label {
+  font-size: 2vw;
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255); /* Etiket rengi */
+  text-align: center; /* Etiketlerin ortalama */
+  font-weight: bold;
+}
+
+.quantity-label {
+
+  text-align: center; /* Etiketi ortala */
+  margin-bottom: 5px;
+
+}
+
+.form-group input#quantity {
+  width: 10vw; /* Sadece Cihaz Sayısı metin kutusunun genişliği */
+}
+.form-group input {
+  width:25vw; /* İnputların genişliği */
+  padding: 8px;
+  box-sizing: border-box;
+  color: white; /* Input metin rengi */
+  background-color: rgb(35, 0, 44); /* Input arka plan rengi */
+  border: 5px rgb(35, 0, 44);
+  border-radius: 20px;
+  margin: 0 auto; /* İnputları ortalama */
+  text-align: center; /* İnput metnini ortalama */
+  font-weight: bold;
+}
+
+.error {
+  color: rgb(35, 0, 44);
+  font-size: 0.875em;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(35,0,44);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+button:hover {
+  background-color: rgb(35, 0,80);
+}
+
+
+.order-button:not(.show) {
+  width: 30%;
+  height: 10vw;
+  padding: 10px;
+  background-color: rgb(35, 0, 44);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+/* Sadece form gösterildiğinde butonun stilini belirleyin */
+.order-button.show {
+  /* Form gösterildiğindeki buton özellikleri */
+  display: none; /* Örneğin: form gösterildiğinde butonu gizlemek */
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .order-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phoneimg {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .order-form {
+    width: 100%;
+    padding: 15px;
+  }
+}
+

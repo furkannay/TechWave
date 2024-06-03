@@ -1,0 +1,44 @@
+.about-us-container{
+  width: 100%;
+
+
+}
+.youtube-video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+  text-align: center; /* Videoyu yatayda ortala */
+}
+.youtube-video-container iframe {
+  width: 40%;
+  height: 20vw; /* Yüksekliği otomatik ayarla */
+}
+
+.about-us-container2{
+  width: 60%;
+  justify-content: center; /* Sayfayı yatayda ortalama */
+  align-items: center; /* Sayfayı dikeyde ortalama */
+  margin: 0 auto;
+}
+
+.about-us-container h2,p {
+  max-width: 80%; /* İçeriğin maksimum genişliği */
+  margin: 0 auto; /* Sayfa içinde yatayda ortalamak için margin ayarı */
+  padding: 2vw; /* İçerik kenar boşlukları */
+  text-align: center; /* İçeriği ortala */
+}
+
+.about-us-container h2 {
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+
+}
+
+.section-description {
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+
+
