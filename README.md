@@ -8,7 +8,7 @@ You can see the site [here](https://tech-wave-xi.vercel.app)
 
 - **Company logo**: Company logo, name and slogan are representing here
 
-- **Pruduct images **: Images and Videos about product
+- **Pruduct images**: Images and Videos about product
 - 
 - **Home**: Part of about us and embed youtube video about product
   
