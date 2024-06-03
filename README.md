@@ -2,7 +2,7 @@
 
 This is a web application developed for the launch of Techwave's latest innovative XR, the Innovatrek VR Pro. The application provides detailed information about the Innovatech XR pro, allows users to place pre-orders, and offers the latest news updates regarding the product.
 
-You can see the site [here](https://innovatech-nine.vercel.app)
+You can see the site [here](https://tech-wave-xi.vercel.app)
 
 ## Page Content
 
@@ -32,7 +32,7 @@ You can see the site [here](https://innovatech-nine.vercel.app)
 
 ## Screenshots
 
-https://github.com/furkannay/Innovatech/assets/74255322/c3df3811-0b3f-4fd2-ba98-8acfe268b8f8
+https://github.com/furkannay/TechWave/assets/74255322/f9b74fce-9ab3-420f-9001-02dd83ec0eb4
 
 
 
