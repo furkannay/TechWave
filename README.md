@@ -1,73 +1,48 @@
-# Getting Started with Create React App
+# TechWave XR Product Launch Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application developed for the launch of Techwave's latest innovative XR, the Innovatrek VR Pro. The application provides detailed information about the Innovatech XR pro, allows users to place pre-orders, and offers the latest news updates regarding the product.
 
-## Available Scripts
+You can see the site [here](https://innovatech-nine.vercel.app)
 
-In the project directory, you can run:
+## Page Content
 
-### `npm start`
+- **Company logo**: Company logo, name and slogan are representing here
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Pruduct images **: Images and Videos about product
+- 
+- **Home**: Part of about us and embed youtube video about product
+  
+- **Features**: A section with the latest news about the TeachWave XR, such as release dates, updates, and other important events.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Order Forms**: A form for pre-ordering the smartphone, requiring the user's name, email address, and desired number of devices. Includes client-side data validation.
+  
+- **Contact**: Phone, email, and address information.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Front-end development library used for the website.
+  
+- **CSS**: Styling and design of the pages.
+  
+- **React Icons**: Integration for using icons on the pages.
+  
+- **Google Maps Embed**: Used to display Google Maps on the website.
+ 
+- **Youtube Videos Embed**: Used to display Youtube videos on the website.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/furkannay/Innovatech/assets/74255322/c3df3811-0b3f-4fd2-ba98-8acfe268b8f8
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Açıklama](https://github.com/furkannay/TechWave/assets/74255322/98089e59-98de-4aab-b932-89554e48479c)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Açıklama](https://github.com/furkannay/TechWave/assets/74255322/ffb53680-a585-4c0b-9e85-d287072aeff7)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Açıklama](https://github.com/furkannay/TechWave/assets/74255322/e1c0e278-2f05-477a-afa7-de1c25ee9250)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+This README file provides a brief overview of the Innovatech website project, highlighting that it is a responsive and SEO-friendly website. For more detailed information about the project, you can explore the codebase and the accompanying screenshots.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Innovatech
-# TechWave
-# TechWave
